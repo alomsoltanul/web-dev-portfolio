@@ -5,7 +5,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    margin: 0px 200px;
 }
 .nav-text{
     color: #181818;
@@ -35,4 +35,40 @@ body{
     padding: 15px 35px;
     color: #fff;
     
+}
+/*Header Starts*/
+.header-bg{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner-contents{}
+.banner-contents h3{}
+.banner-contents h1{}
+.banner-contents p{}
+.btn-prims{
+    color: #fff;
+    background-color: #FD6E0A;
+    border: none;
+    padding: 16px 35px;
+    border-radius: 12px;
+}
+.btn-prims a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500px;
+}
+.pro{
+    
+    background-color: #ffffff;
+    border: 1px solid #FD6E0A;
+    padding: 16px 35px;
+    border-radius: 12px;
+}
+.banner-image .profile-pic{
+    width: 300px;
 }
