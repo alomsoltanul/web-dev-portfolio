@@ -1,5 +1,38 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 .flex{
     display: flex;
-    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-text{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+.nav-text span{
+    color: #FD6E0A;
+}
+.btn-primary{
+    color: #FD6E0A;
+}
+.nav-menu{
+    display: flex;
+   
+}
+.nav-menu li{
+    list-style: none;
+    margin-right:20px ;
+}
+.nav-menu li a{
+    text-decoration: none;
+    color: #181818;
+}
+.block-btn{
+    background-color: #FD6E0A;
+    padding: 15px 35px;
+    color: #fff;
     
 }
